@@ -12,8 +12,8 @@ class Slot:
         opti.createModel()
         packedVars = opti.solve()
         for var in packedVars:
-            var.optimal_postion = self.contract.next_optimal_position
-            self.contract.state_variables[var.position].optimal_postion = self.contract.next_optimal_position
+            var.optimal_position = self.contract.next_optimal_position
+            self.contract.state_variables[var.position].optimal_position = self.contract.next_optimal_position
             var.isStored = True
             self.contract.state_variables[var.position].isStored
             self.contract.next_optimal_position += 1
