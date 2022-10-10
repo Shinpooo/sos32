@@ -2,6 +2,8 @@
 
 SOS32 is a tool to optimize solidity state variables packing in storage slots.
 
+![Example](https://ibb.co/ng7SHgw)
+
 ## Install 
 
 Create a virtual env and activate it
