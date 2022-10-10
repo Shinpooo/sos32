@@ -3,7 +3,13 @@
 SOS32 is a tool to optimize solidity state variables packing in storage slots.
 
 ## Install 
-`pip install -r requirements.txt`
+
+Create a virtual env and activate it
+`python3 -m venv .venv`
+
+
+Install in your virtualenv `pip install -r requirements.txt`
+
 
 ## Usage
 
