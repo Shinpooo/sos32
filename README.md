@@ -4,13 +4,21 @@ SOS32 is a tool to optimize solidity state variables packing in storage slots.
 
 ![Example](https://i.ibb.co/bWsnSW6/Screenshot-2022-10-10-at-19-17-59.png)
 
-## Install 
+## Installation 
 
 Create a virtual env and activate it
 `python3 -m venv .venv`
 
 
-Install in your virtualenv `pip install -r requirements.txt`
+Install in your virtual environment `pip install -r requirements.txt`
+
+### GLPK Solver installation
+
+To solve problems to optimality, SOS32 uses [GLPK](https://www.gnu.org/software/glpk/#TOCdownloading) solver.
+
+You can install it via [conda](https://docs.conda.io/en/latest/miniconda.html)
+Install GLPK `conda install glpk`
+
 
 
 ## Usage
