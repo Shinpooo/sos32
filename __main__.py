@@ -3,6 +3,14 @@ from sos32.contract import Contract
 from sos32.state_variable import StateVariable
 import sys
 
+# TODO : Handle Mapping, Arrays (fixed + dynamic), Strings Strucs, Enums & other types
+# TODO : Recreate a solidity contract with the sorted state variables
+# TODO : Handle several contracts, files & folders
+# TODO : verbose levels -> logging
+# TODO : Solve 1 large optimization problem instead of 1 per slot (if feasible)
+# TODO : Try to integrate static analyzers if tool is useful
+
+
 def main():
     path = sys.argv[1]
     # path = "out/SOS32Example.sol/SOS32Example.json"
